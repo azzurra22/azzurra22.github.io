@@ -1,0 +1,20 @@
+body{
+	text-align: center;
+	background: url("../images/ocean.jpg");
+	background-size: cover;
+	font-family: Helvetica;
+}
+#sloganID {
+	color: silver;
+	font-size: 30px
+}
+p{
+	color: white;
+	font-weight: bold;
+	font-size: 30px
+}
+h1{
+	color: rgb(153, 204, 255);
+	font-weight: bolder;
+	font-size: 40px
+}
