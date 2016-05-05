@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Homemade+Apple);
+
+body{
+	text-align: center;
+	background: url("../images/ocean.jpg");
+	background-size: cover;
+	font-family: Helvetica;
+}
+#slogan {
+	color: white;
+	font-size: 50px;
+	font-family:'Homemade Apple', cursive;
+	font-weight: bolder; 
+}
+p{
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	font-family:'Homemade Apple', cursive;
+}
