@@ -25,8 +25,9 @@ body{
 .style{
 	width: 30em;
 	margin: 2em auto;
+	float: left;
 }
-.navlinks{
+nav a {
 	font-family: "Dosis", sans-serif; 
 	font-size: 1.3em; 
 	color: white; 
@@ -37,12 +38,22 @@ body{
 	padding-top: 25px; 
 	margin: 20px;
 }
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0; 
+	content: " ";
+	clear:both;
+	height: 0; 
+}
 p{
 	color: white;
 	font-weight: bold;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	font-family:'Dosis', sans-serif;
-	padding-bottom: 20px; 
+	padding: 10px 20px; 
+	margin: 0 auto; 
+	width: 18em;
 }
 hr{
 	
