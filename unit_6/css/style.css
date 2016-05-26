@@ -96,20 +96,18 @@ h2{
 }
 .style a{
 	color: inherit;
-	text-decoration:none;
 }
 header{
 	float: left;
 	padding: 0 300px; 
 }
-footer p{
+footer p, a{
 	color: black;
 	text-align: center; 
+	text-decoration: none; 
+	margin: 5px 0;
 }
-#two_column {
-    background-color: #FFB7CF;
-    padding: 20px;
-}
+
 
 
 
