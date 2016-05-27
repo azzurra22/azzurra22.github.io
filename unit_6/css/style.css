@@ -78,7 +78,7 @@ hr{
 	margin: 1em auto;
 	width: 3em;
 	height: 2.5px; 
-	background-color: #6E7476; 
+	background-color: black; 
 
 }
 h1{
@@ -96,6 +96,7 @@ h2{
 }
 .style a{
 	color: inherit;
+	text-decoration: underline;
 }
 header{
 	float: left;
@@ -104,8 +105,8 @@ header{
 footer p, a{
 	color: black;
 	text-align: center; 
-	text-decoration: none; 
-	margin: 5px 0;
+	margin: 5px 04;
+	text-decoration: none;
 }
 
 
