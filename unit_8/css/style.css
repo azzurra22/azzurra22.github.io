@@ -108,17 +108,7 @@ footer p, a{
 	margin: 5px 04;
 	text-decoration: none;
 }
-@media only screen and (max-width: 1255px) {
-	h2 {
-		font-size: 1.5em; 
-	}
-	nav a {
-		font-size: 1em; 
-	}
-	h1 {
-		font-size: 4.5em; 
-	}
-}
+
 @media only screen and (max-width: 1279px) {
 	nav a {
 		margin: 0 15px; 
@@ -135,6 +125,17 @@ footer p, a{
 	#slogan {
 		font-size: 2.5em; 
 		}
+}
+@media only screen and (max-width: 1255px) {
+	h2 {
+		font-size: 1.5em; 
+	}
+	nav a {
+		font-size: 1em; 
+	}
+	h1 {
+		font-size: 4.5em; 
+	}
 }
 @media only screen and (max-width: 1200px) {
 	nav a {
