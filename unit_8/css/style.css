@@ -21,7 +21,7 @@ body{
 }
 #slogan {
 	color: white;
-	font-size: 50px;
+	font-size: 3em;
 	font-family:'Homemade Apple', cursive;
 	font-weight: bolder; 
 	margin: 0;	
@@ -126,5 +126,18 @@ footer p, a{
 	}
 	h1 {
 		font-size: 4.5em; 
+	}
+}
+@media only screen and (max-width: 1264px) {
+	h1 {
+		font-size: 4em; 
+		}
+	#slogan {
+		font-size: 2.5em; 
+		}
+}
+@media only screen and (max-width: 1200px) {
+	nav a {
+		margin: 0 15px; 
 	}
 }
