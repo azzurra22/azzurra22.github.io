@@ -108,37 +108,37 @@ footer p, a{
 	margin: 5px 04;
 	text-decoration: none;
 }
-
-@media only screen and (max-width: 1279px) {
-	nav a {
-		margin: 0 15px; 
-	}
+#three_columns {
+	width: 100%; 
+	float: left;
 }
 
-@media only screen and (max-width: 1264px) {
+@media only screen and (max-width: 1000px) {
 	nav a {
-		margin: 0 15px; 
+		padding: 0;
+		font-size: 2em; 
+		width: 100%; 
+		text-align: center; 
 	}
-	h1 {
-		font-size: 4.7em; 
-	}
-	#slogan {
-		font-size: 2.5em; 
-		}
-}
-@media only screen and (max-width: 1255px) {
-	h2 {
-		font-size: 1.5em; 
-	}
-	nav a {
-		font-size: 1em; 
-	}
-	h1 {
-		font-size: 4.5em; 
+	header {
+		padding: 0;
+		width: 100%; 
 	}
 }
-@media only screen and (max-width: 1200px) {
-	nav a {
-		margin: 0 15px; 
+@media only screen and (max-width: 600px) {
+	.style{
+		width: 100%; 
+		float: left;
 	}
+	.desc { 
+		text-align: center; 
+	 }
+	 #slogan {
+	 	float: left; 
+	 }
+	 #splash {
+	 	height: 125vh
+	 }
 }
+
+
