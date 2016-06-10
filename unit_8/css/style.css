@@ -44,6 +44,14 @@ body{
 	width:100%;
 	height: auto;
 }
+.pop {
+	text-align: center; 
+	color: white; 
+	background-color: #64A8F5; 
+	margin: 10px 0;
+	padding: 10px 0; 
+	width: 6em;
+}
 nav a {
 	font-size: 1.3em;
 	color: #303233; 
