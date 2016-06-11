@@ -21,7 +21,7 @@ body{
 }
 #slogan {
 	color: white;
-	font-size: 3em;
+	font-size: 50px;
 	font-family:'Homemade Apple', cursive;
 	font-weight: bolder; 
 	margin: 0;	
@@ -43,14 +43,6 @@ body{
 .style img {
 	width:100%;
 	height: auto;
-}
-.pop {
-	text-align: center; 
-	color: white; 
-	background-color: #64A8F5; 
-	margin: 10px 0;
-	padding: 10px 0; 
-	width: 6em;
 }
 nav a {
 	font-size: 1.3em;
@@ -102,10 +94,6 @@ h2{
 	font-size: 2em;
 	margin:1em 0 0;
 }
-.style a{
-	color: inherit;
-	text-decoration: underline;
-}
 header{
 	float: left;
 	padding: 0 300px; 
@@ -116,37 +104,49 @@ footer p, a{
 	margin: 5px 04;
 	text-decoration: none;
 }
-#three_columns {
+.pop {
+	display: inline-block;
+	background-color: #64A8F5; 
+	color: white;
+	text-decoration: none; 
+	padding: .75em; 
+
+}
+#three_column {
 	width: 100%; 
 	float: left;
 }
-
 @media only screen and (max-width: 1000px) {
 	nav a {
-		padding: 0;
+		margin: 0;
 		font-size: 2em; 
-		width: 100%; 
-		text-align: center; 
+		width: 100%;  
 	}
 	header {
 		padding: 0;
 		width: 100%; 
 	}
-}
-@media only screen and (max-width: 600px) {
-	.style{
-		width: 100%; 
-		float: left;
+	#splash{
+		height: auto; 
+		padding: 5em 0;
 	}
-	.desc { 
-		text-align: center; 
-	 }
-	 #slogan {
-	 	float: left; 
-	 }
-	 #splash {
-	 	height: 125vh
-	 }
+
+}
+@media only screen and (max-width: 710px) {
+	.style{
+		width: 95%; 
+	}
+	#three_column{
+		padding: 0.5em;
+	}
+	nav a {
+		font-size: 1.25em; 
+		margin: 0;
+	}
+	#splash{
+		height: auto; 
+		padding: 8em 0;
+	}
 }
 
 
