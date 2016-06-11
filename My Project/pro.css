@@ -6,6 +6,21 @@
 	box-sizing: border-box;
 }
 body{
-	background: url("../IMG/galax.jpg") no-repeat center center  fixed;
+	background: url("../IMG/galax.jpg"); 
 	background-size: cover;
+	color: white; 
+}
+nav a {
+	font-size: 1.3em;
+	color: white; 
+	text-transform: uppercase;
+	text-decoration:none;
+	padding: 20px;
+	display: inline-block;
+	margin: 0 20px;
+	text-align: center; 
+}
+nav a:hover {
+	background-color: purple;
+	opacity: 0.4; 
 }
