@@ -1,7 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:400,600);
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+body{
+	text-align: center;
+	line-height: 1.3;
+	font-family:'Dosis', sans-serif;
+	background-color: #D1A8C1
+}
+header{
+	float: left;
+	padding: 0 300px; 
 }
 nav a {
 	font-size: 1.3em;
@@ -11,9 +22,48 @@ nav a {
 	padding: 20px;
 	display: inline-block;
 	margin: 0 20px;
-	text-align: center; 
 }
 nav a:hover {
 	background-color: white;
 	opacity: 0.4; 
+}
+
+#splash {
+	background: url("../IMG/heart.jpg") no-repeat center center  fixed;
+	background-size: cover;
+	height: 90vh;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0; 
+	content: " ";
+	clear:both;
+	height: 0; 
+}
+.style{
+	width: 50%;
+	margin: 2em .5%;
+	padding: 2em;
+	background-color: purple; 
+	display: inline-block;
+	float: left; 
+}
+.style img {
+	width:100%;
+	height: auto;
+}
+.info{
+	padding: 0;
+}
+#two_columns {
+	width: 100%; 
+	float: left;
+}
+
+footer p, a{
+	color: black;
+	text-align: center; 
+	margin: 5px 04;
+	text-decoration: none;
 }

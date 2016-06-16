@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:400,600);
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+nav a {
+	font-size: 1.3em;
+	color: black; 
+	text-transform: uppercase;
+	text-decoration:none;
+	padding: 20px;
+	display: inline-block;
+	margin: 0 20px;
+	text-align: center; 
+}
+nav a:hover {
+	background-color: purple;
+	opacity: 0.4; 
+}
+#splash {
+	background: url("../IMG/parz.jpg") no-repeat center center  fixed;
+	background-size: cover;
+	height: 90vh;
+}
+/*.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0; 
+	content: " ";
+	clear:both;
+	height: 0; 
+}

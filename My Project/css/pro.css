@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Cinzel);
+@import url(https://fonts.googleapis.com/css?family=Dosis:400,600);
+@import url(https://fonts.googleapis.com/css?family=Homemade+Apple);
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: url("../IMG/galazy.jpg"); 
+	background-size: cover;
+	color: white; 
+	font-family: "Dosis", sans-serif; 
+	text-align: center; 
+}
+nav a {
+	font-size: 1.3em;
+	color: white; 
+	text-transform: uppercase;
+	text-decoration:none;
+	padding: 20px;
+	display: inline-block;
+	margin: 0 20px;
+	text-align: center; 
+}
+nav a:hover {
+	background-color: #64A8F5;
+	opacity: 0.4; 
+}
+footer p, a{
+	color: white;
+	text-align: center; 
+	margin: 5px 04;
+	text-decoration: none;
+}
+.bullet{
+	padding-bottom: 2em;
+	padding-top: 1em; 
+
+}
+#slogan {
+	color: white;
+	font-size: 50px;
+	font-family:'Homemade Apple', cursive;
+	font-weight: bolder; 
+	margin: 0;	
+	text-align: center; 
+}
+h1{
+	color: white;
+	font-size: 5em; 
+	padding: 20px 40px;
+	margin: 30px;
+	font-family: 'Cinzel', serif;
+}
+h2{
+	color: white;
+	font-family: "Homemade Apple", cursive;
+	font-size: 2.5em;
+}
+ul {
+	font-size: 2em; 
+	font-family: inherit;
+	display: list-item;
+}
+
+/*.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0; 
+	content: " ";
+	clear:both;
+	height: 0; 
+}
