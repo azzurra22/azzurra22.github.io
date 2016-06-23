@@ -62,6 +62,9 @@ ul {
 	font-size: 2em; 
 	font-family: inherit;
 	display: list-item;
+	width: 7.3em;
+	margin: auto;
+	text-align: left; 
 }
 
 /*.clearfix:after {

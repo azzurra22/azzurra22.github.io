@@ -1,4 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Dosis:400,600);
+@import url(https://fonts.googleapis.com/css?family=Cinzel);
+@import url(https://fonts.googleapis.com/css?family=Homemade+Apple);
+
+
 *{
 	margin: 0;
 	padding: 0;
@@ -12,7 +16,7 @@ body{
 }
 header{
 	float: left;
-	padding: 0 300px; 
+	width: 100%;
 }
 nav a {
 	font-size: 1.3em;
@@ -41,21 +45,22 @@ nav a:hover {
 	clear:both;
 	height: 0; 
 }
-.style{
+.style2{
 	width: 50%;
 	margin: 2em .5%;
 	padding: 2em;
 	background-color: purple; 
-	display: inline-block;
-	float: left; 
+	margin: 2em auto;
 }
-.style img {
+.style2 img {
 	width:100%;
 	height: auto;
 }
-.info{
-	padding: 0;
+.style2 div {
+	float: left;
+	width: 50%; 
 }
+
 #two_columns {
 	width: 100%; 
 	float: left;
@@ -66,4 +71,15 @@ footer p, a{
 	text-align: center; 
 	margin: 5px 04;
 	text-decoration: none;
+}
+h1 {
+	font-family:'Cinzel', sans-serif; 
+	font-weight: bold;
+	font-size: 5em; 
+}
+.up{
+	font-family:'Homemade Apple', sans-serif;
+	font-size: 2em; 
+	font-weight: bold; 
+	padding: 3em;
 }
