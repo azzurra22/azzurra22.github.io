@@ -37,15 +37,16 @@ header{
 	width: 100%;
 }
 .style3{
-	width: 50%;
+	width: 70%;
 	margin: 2em .5%;
 	padding: 2em;
 	background-color: #83916D; 
 	margin: 2em auto;
 }
 .style3 img {
-	width:100%;
+	width:55%;
 	height: auto;
+	float: left; 
 }
 .style3 div {
 	float: left;
@@ -57,7 +58,7 @@ header{
 	float: left;
 }
 
-.foody:after {
+.style3:after {
 	visibility: hidden;
 	display: block;
 	font-size: 0; 

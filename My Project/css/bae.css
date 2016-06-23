@@ -37,7 +37,7 @@ nav a:hover {
 	background-size: cover;
 	height: 90vh;
 }
-.clearfix:after {
+.style2:after {
 	visibility: hidden;
 	display: block;
 	font-size: 0; 
@@ -46,15 +46,16 @@ nav a:hover {
 	height: 0; 
 }
 .style2{
-	width: 50%;
+	width: 70%;
 	margin: 2em .5%;
 	padding: 2em;
 	background-color: purple; 
 	margin: 2em auto;
 }
 .style2 img {
-	width:100%;
+	width:50%;
 	height: auto;
+	float: left; 
 }
 .style2 div {
 	float: left;
