@@ -85,3 +85,18 @@ footer p, a{
 	margin: 5px 04;
 	text-decoration: none;
 }
+@media only screen and (max-width: 710px) {
+	.style3{
+		width: 100%; 
+	}
+	.style3 img{
+		width: 100%; 
+		height: auto; 
+	}
+	.style3 div {
+		float: none;
+		width: 100%; 
+	}
+	#two_columns{
+		padding: 0.5em;
+	}
