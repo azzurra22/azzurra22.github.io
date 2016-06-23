@@ -28,7 +28,7 @@ nav a:hover {
 	opacity: 0.4; 
 }
 #splash {
-	background: url("../IMG/parz.jpg") no-repeat center center  fixed;
+	background: url("../images/fook.jpg") no-repeat center center  fixed;
 	background-size: cover;
 	height: 90vh;
 }
@@ -70,6 +70,7 @@ h1{
 	font-weight: bold;
 	font-size: 5em; 
 	color: black;
+	padding: 1em; 
 }
 .non {
 	font-family: "Homemade Apple"; 

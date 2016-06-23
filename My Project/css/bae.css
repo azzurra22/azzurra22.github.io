@@ -33,7 +33,7 @@ nav a:hover {
 }
 
 #splash {
-	background: url("../IMG/heart.jpg") no-repeat center center  fixed;
+	background: url("../images/heart.jpg") no-repeat center center  fixed;
 	background-size: cover;
 	height: 90vh;
 }
@@ -76,10 +76,11 @@ h1 {
 	font-family:'Cinzel', sans-serif; 
 	font-weight: bold;
 	font-size: 5em; 
+	padding: 1em; 
 }
 .up{
 	font-family:'Homemade Apple', sans-serif;
 	font-size: 2em; 
 	font-weight: bold; 
-	padding: 3em;
+	padding-bottom: .5em; 
 }
