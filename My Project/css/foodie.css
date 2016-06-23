@@ -47,6 +47,7 @@ header{
 	width:55%;
 	height: auto;
 	float: left; 
+	padding-right: 1em; 
 }
 .style3 div {
 	float: left;
