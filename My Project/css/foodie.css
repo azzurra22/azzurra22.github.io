@@ -45,7 +45,7 @@ header{
 	height: 0; 
 }
 .style3{
-	width: 70%;
+	width: 75%;
 	margin: 2em .5%;
 	padding: 2em;
 	background-color: #83916D; 
@@ -81,8 +81,10 @@ h1{
 footer p, a{
 	color: black;
 	text-align: center; 
-	margin: 5px 04;
 	text-decoration: none;
+}
+.title{
+	padding-bottom: .6em; 
 }
 @media only screen and (max-width: 710px) {
 	.style3{

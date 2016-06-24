@@ -71,7 +71,6 @@ nav a:hover {
 footer p, a{
 	color: black;
 	text-align: center; 
-	margin: 5px 04;
 	text-decoration: none;
 }
 h1 {
@@ -86,4 +85,21 @@ h1 {
 	font-weight: bold; 
 	padding-bottom: .5em; 
 }
-
+.title{
+	padding-bottom: .6em; 
+}
+@media only screen and (max-width: 710px) {
+	.style2{
+		width: 100%; 
+	}
+	.style2 img{
+		width: 100%; 
+		height: auto; 
+	}
+	.style2 div {
+		float: none;
+		width: 100%; 
+	}
+	#two_columns{
+		padding: 0.5em;
+	}
